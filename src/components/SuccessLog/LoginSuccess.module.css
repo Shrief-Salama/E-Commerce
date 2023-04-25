@@ -1,0 +1,20 @@
+.message {
+  margin-top: 7rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.successLogin {
+  margin-left: 0.3rem;
+  color: green;
+}
+
+.homePage {
+  margin-left: 0.3rem;
+  color: green;
+}
+
+.message a {
+  margin-left: 1rem;
+}

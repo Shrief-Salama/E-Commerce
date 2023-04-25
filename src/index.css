@@ -1,0 +1,35 @@
+/* font-family: 'Overpass', sans-serif; */
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.cartModalActive {
+  overflow: hidden;
+}
+
+.pdd70 {
+  padding: 70px 0;
+}
+
+.productPage .breadcrumbs ul {
+  justify-content: start;
+}
+
+.swiperTumbs {
+  margin-top: 10px;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0,0,0,.5);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.spinner-border {
+  margin-left: 10px;
+}

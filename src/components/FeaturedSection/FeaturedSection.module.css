@@ -1,0 +1,23 @@
+.boxes{
+    background: rgba(250, 244, 244, 1);
+}
+
+.secRow{
+    padding-bottom: 5rem;
+}
+
+.box img{
+    max-width: 600px;
+    max-height: 520px;
+    padding-top: 20px;
+}
+
+.box p{
+    font-size: 36px;
+    /* transform: translate(119px, -165px); */
+    font-weight: bold;
+}
+
+.box button{
+    /* transform: translate(119px, -147px); */
+}

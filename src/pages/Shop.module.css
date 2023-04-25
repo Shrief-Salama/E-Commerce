@@ -1,0 +1,36 @@
+div .container {
+    margin-left: 1rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.btn button {
+    margin-left: 2rem;
+    border: none;
+    background: rgba(255, 249, 229, 1);
+    font-size:20px;
+    font-weight: 300;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.pages button {
+    margin-left: 2rem;
+    border: none;
+    background: rgba(255, 249, 229, 1);
+    font-size:20px;
+    font-weight: 300;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.pages button:active,.btn button:active {
+    background: rgba(251, 235, 181, 1);
+}

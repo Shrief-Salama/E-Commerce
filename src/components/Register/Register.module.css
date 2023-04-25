@@ -1,0 +1,65 @@
+.contentTitle {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-family: 'Overpass', sans-serif;
+    }
+    
+    .contentInput {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contentInput label {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        font-family: 'Overpass', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: .5px;
+        margin: 0;
+        margin-bottom: 5px;
+        width: 420px;
+    }
+    
+    .contentInput input {
+        width: 420px;
+        height: 50px;
+        border-radius: 0.1875rem;
+        padding-left: 10px;
+        border: 2px solid #ddd;
+        font-size: 18px;
+    }
+
+    .contentInput input:hover,
+    .contentInput input:focus {
+        border-color: #333;
+    }
+
+.regInfo p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.regInfo span {
+    margin: 0;
+    font-weight: 600;
+}
+
+.errors {
+    color:red;
+}
+
+.success {
+    margin-top: 10px;
+    font-size: 16px;
+    color: green;
+}
+
+.regButtons {
+    display: flex;
+    align-items: center;
+}

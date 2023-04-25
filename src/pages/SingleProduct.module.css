@@ -1,0 +1,152 @@
+.productPage {
+  padding-top: 160px;
+}
+
+.productPageInner {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 40px 0 70px;
+}
+
+.productMainInfo {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.9);
+}
+
+.productMainInfo h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+.productMainInfo span {
+  color: #a3a3a3;
+  font-size: 1.8rem;
+}
+
+.productMainInfo p {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.productInfo {
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 15px;
+}
+
+.productInfo h5 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.productInfo p {
+  color: #a3a3a3;
+  font-size: 18px;
+  margin: 0;
+}
+
+.productDimensions {
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.productDimensions div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productDimensions div h5 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.productDimensions div p {
+}
+
+.productInfoDeliveryWrapper {
+  display: flex;
+}
+
+.productInfoDeliveryInner {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.productInfoDeliveryInner svg {
+  margin-right: 10px;
+  font-size: 32px;
+}
+
+.productInfoDeliveryInner span {
+  font-size: 18px;
+}
+
+.stock {
+  text-align: right;
+  color: #24a810;
+  margin-top: 10px;
+  font-family: "Overpass", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.productActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productActions input {
+  text-align: center;
+  width: 40px;
+  border: 2px solid #ddd;
+  border-radius: 0.1875rem;
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  height: 40px;
+  margin: 0 15px;
+}
+.productActions input:hover,
+.productActions input:focus {
+  border-color: #333;
+}
+
+.productActions input[type="number"]::-webkit-inner-spin-button,
+.productActions input[type="number"]::-webkit-inner-spin-button
+{
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+.quatities {
+  display: flex;
+  align-items: center;
+}
+
+.buttQuantity {
+  border: none;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+    border-radius: 0.1875rem;
+}
+
+.actions {
+  display: flex;
+}
+
+.wishlistBtn {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  border-radius: 0.1875rem;
+  width: 50px;
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}

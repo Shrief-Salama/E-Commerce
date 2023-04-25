@@ -1,0 +1,28 @@
+.content {
+    background:url(../../assets/Follow.png);
+    text-align: center;
+}
+
+.container {
+    padding-bottom: 5rem;
+}
+
+.content p {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 8rem;
+}
+
+.content h6 {
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.content button {
+    padding: 1rem 4rem;
+    border: 0px solid rgb(253 244 238);
+    border-radius: 50px;
+    box-shadow: 0 0 10px 1px #dedbdb;
+    font-size: 20px;
+    color:#463a3a;
+}

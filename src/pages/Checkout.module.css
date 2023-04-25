@@ -1,0 +1,184 @@
+.container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.billInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.billInfo p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.billInfo label {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  font-family: "Overpass", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.billInfo input,
+.billInfo select {
+  border-radius: 0.1875rem;
+  padding-left: 10px;
+  border: 2px solid #ddd;
+  font-size: 18px;
+  color: rgba(159, 159, 159, 1);
+}
+
+.billInfo input:hover,
+.billInfo input:focus,
+.billInfo select:hover,
+.billInfo select:focus {
+  border-color: #333;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.firstName,
+.lastName {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstName label,
+.lastName label {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  font-family: "Overpass", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.firstName input,
+.lastName input {
+  width: 200px;
+  margin-bottom: 1.5rem;
+  height: 40px;
+  border-radius: 0.1875rem;
+  padding-left: 10px;
+  border: 2px solid #ddd;
+  font-size: 18px;
+}
+
+.otherInfo form {
+  display: flex;
+  flex-direction: column;
+}
+
+.otherInfo label {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  font-family: "Overpass", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.otherInfo input,
+.otherInfo select {
+  margin-bottom: 1.5rem;
+  width: 450px;
+  height: 40px;
+  color: rgba(159, 159, 159, 1);
+  border-radius: 0.1875rem;
+  padding-left: 10px;
+  border: 2px solid #ddd;
+  font-size: 18px;
+}
+
+.productsInfo {
+  margin-top: 3rem;
+}
+
+.title,
+.name,
+.price,
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.productQuantity {
+  color: #24a810;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.productQuantity span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #090e1d;
+}
+
+.productTotalPrice {
+  color: #090e1d;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.totalPriceTitle {
+  color: #090e1d;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.totalPrice {
+  color: #24a810;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.payInfo {
+  margin-bottom: 2rem;
+}
+
+.payInfo p {
+  color: rgb(72 72 72);
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.bankRadio label,
+.cashRadio label {
+  margin-left: 5px;
+}
+
+.bankRadio input:checked + label,
+.cashRadio input:checked + label {
+  font-weight: 600;
+}
+
+.payInfo span {
+  margin: 0;
+  font-weight: 600;
+}
+
+.btn {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.privacyPolicy span {
+  font-weight: 600;
+}

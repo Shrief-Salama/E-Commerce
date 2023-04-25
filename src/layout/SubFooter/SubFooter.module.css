@@ -1,0 +1,21 @@
+.content {
+    padding: 4rem 0;
+}
+
+.content svg {
+    font-size: 5rem;
+    color: #24a810;
+}
+
+.content h4 {
+    font-size:20px;
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 30px;
+}
+
+.content p {
+    margin:0;
+    font-size: 20px;
+    color: #a3a3a3;
+}

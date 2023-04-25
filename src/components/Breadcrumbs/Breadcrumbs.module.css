@@ -1,0 +1,58 @@
+.breadcrumbs {
+    
+}
+
+.breadcrumbs ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadcrumbs li {
+    position: relative;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    margin-right: 20px;
+}
+
+.breadcrumbs li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.breadcrumbs li,
+.breadcrumbs li a {
+    color: #24a810;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Overpass', sans-serif;
+    text-decoration: none;
+}
+
+.breadcrumbs li a:hover {
+    color: #090e1d;
+}
+
+.breadcrumbs li {
+    color: #a3a3a3;
+}
+
+.breadcrumbs li:not(:last-child):after {
+    content: '';
+    background: url('./../../assets/arrow.svg') no-repeat;
+    position: absolute;
+    right: 0;
+    width: 17px;
+    height: 17px;
+    margin-top: -2px;
+}
+
+.breadcrumbs li a {
+    
+}
+
+.breadcrumbs {
+    
+}

@@ -1,0 +1,39 @@
+.content {
+    background: #f9f9f9;   
+    height: 450px;
+    margin-bottom: 8rem;
+}
+
+.photo img {
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info span {
+    font-size: 24px;
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+}
+
+.info p {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Overpass', sans-serif;
+}
+
+.info button {
+    background: none;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+}
+
+.info button:hover {
+    color: #ac7f45;
+    border-color: #ac7f45;
+}
